@@ -1,3 +1,33 @@
+# Filmorate
+сервис для оценки и рекомендации фильмов.
+
+### &#128736; Стек:
+![Java](https://img.shields.io/badge/java-%25?style=for-the-badge&logo=java&color=blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%252300758F.svg?style=for-the-badge&logo=PostgreSQL&color=lightskyblue)
+![Spring](https://img.shields.io/badge/spring-%25?style=for-the-badge&logo=spring&color=lavenderblush)
+![Jdbc](https://img.shields.io/badge/Jdbc-%25?style=for-the-badge&color=lavender)
+![REST API](https://img.shields.io/badge/REST%20API-%23266999.svg?style=for-the-badge&color=teal)
+![JUnit](https://img.shields.io/badge/JUnit-%25?style=for-the-badge&color=crimson)
+![Git](https://img.shields.io/badge/Git-%25.svg?style=for-the-badge&logo=git&color=black)
+
+### ✔ Функциональность:
+ - добавление/изменение пользователей;
+ - получение списка всех пользователей;
+ - добавление/изменение фильмов;
+ - получение списка всех фильмов с возможностью фильтрации и сортировки;
+
+В командной работе реализовала:
+- возможность выводить топ-N фильмов по количеству лайков;
+- добавление режиссера фильма;
+
+### 🖥️ Запуск:
+1. Склонируйте репозиторий:
+   ```sh
+      https://github.com/BersenevaAV/filmorate.git
+   ```
+2. Откройте проект в IntelliJ IDEA;
+3. Запустите проект на устройстве - сначала модуль gateway, затем модуль server;
+
 ## Схема базы данных
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](./schema.png)
